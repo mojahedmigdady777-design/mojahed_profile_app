@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
 
   // 2. دالة مخصصة لفتح الرابط بأمان
   Future<void> _launchURL() async {
-    final Uri url = Uri.parse('https://www.facebook.com/people/%D8%AA%D9%84%D8%A7%D9%88%D8%A7%D8%AA-%D9%85%D8%AC%D8%A7%D9%87%D8%AF-%D9%85%D9%87%D9%86%D8%AF-%D9%85%D9%82%D8%AF%D8%A7%D8%AF%D9%8A/61564031867130/?mibextid=ZbWKwL');
+    final Uri url = Uri.parse('https://www.facebook.com/mojahed.mohanad.migdady?mibextid=ZbWKwL');
     if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
       throw Exception('Could not launch $url');
     }
